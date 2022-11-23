@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1024px){
+    .text_2{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 915px){
+    .text_1{
+        font-size: 45px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 904px){
+    .text_2{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 728px){
+    .wrapper{
+        display: block;
+        width: 312px;
+    }
+    .knopki{
+        margin-top: 300px;
+    }
+    .text_help_js{
+        text-align: center;
+    }
+    .img{
+        background-size: contain;
+    }
+    .text_1{
+        font-size: 42px;
+    }
+    .text_2{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 672px){
+    .text_1{
+        font-size: 40px;
+    }
+    .text_2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 560px){
+    .text_1{
+        font-size: 37px;
+    }
+    .text_2{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .text_1{
+        font-size: 36px;
+    }
+    .text_2{
+        width: 300px;
+        margin: 0 auto 63px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .text_1{
+        font-size: 32px;
+    }
+    .price{
+        width: 301px;
+    }
+    .knopki{
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 332px){
+    .text_1{
+        font-size: 28px;
+    }
+}

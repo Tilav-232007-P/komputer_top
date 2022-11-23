@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto"
+}
+@mixin b {
+    text-align: center;
+}
+@mixin font {
+    font-weight: 700;
+    font-size: 48px;
+}
+.text_1{
+    margin-top: 78px;
+    margin-bottom: 24px;
+    @include font() ; @include b()
+}
+.text_2{
+    margin-bottom: 63px;
+    font-weight: 500;
+    font-size: 18px;
+    @include b()
+}
+.wrapper{
+    margin: 0 auto;
+    height: 290px;
+    width: 312px + 76px + 292px; 
+    display: flex;
+    .item{
+        height: 100%;
+        width: 312px;
+    }
+    .text_help_js{
+        padding-top: 110px - 63px;
+        .text_3{
+            @include font();
+        }
+        .blue_text{
+            color: #0071E3;
+            margin-bottom: 48px;
+        }
+        .dollar_text{
+            @include font();
+        }
+    }
+}
+.img{
+    background-image: url(../image/mbp14-silver-select-202110\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 76px;
+    transition: 0.3s;
+    &:hover{
+        margin-top: -10px;
+    }
+}
+.img_2{
+    background-image: url(../image/mbp14-spacegray-select-202110\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 76px;
+    transition: 0.3s;
+    &:hover{
+        margin-top: -10px;
+    }
+}
+.knopki{
+    height: 42px;
+    margin: 59px auto 39px;
+    width: 155px + 11px + 155px;
+    display: flex;
+    justify-content: space-between;
+    .knopka{
+        border: none;
+        height: 100%;
+        width: 155px;
+        border-radius: 10px;
+        background-color: #CFE7FF;
+        color: Space Grey;
+    }
+    .blue_bc{
+        background-color: #0071E3;
+        color: white;
+    }
+}
+.price{
+    width: 321px;
+    height: 57px + 7px + 57px + 7px + 57px + 7px + 57px;
+    margin: 0 auto;
+    .knopka_price{
+        width: 100%;
+        height: 57px;
+        border: 2px solid #CFE7FF;
+        background-color: transparent;
+        border-radius: 10px;
+        padding: 0 20px;
+        margin-bottom: 7px;
+        font-weight: 600;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: 0.3s;
+        .left_and_right_text{
+            width: 100px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .dop{
+            display: flex;
+            justify-content: end;
+            font-size: 14px;
+        }
+    }
+    .border{
+        border: 2px solid #0071E3;
+    }
+}
+.price{
+    margin-bottom: 100px;
+}
